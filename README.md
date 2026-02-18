@@ -1,80 +1,190 @@
-# 🚀 JustDial Scraper — Full Stack Lead Generation Tool
+# 🚀 JustDial Scraper — Lead Generation Web App
 
-A professional full-stack web application to scrape business leads from JustDial across 300+ Indian cities. Built with **Next.js 14** and **Python Selenium**.
+A full-stack web application that extracts business leads from JustDial across hundreds of Indian cities with real-time tracking and instant export.
 
-![Next.js](https://img.shields.io/badge/Next.js-14-black?style=flat-square&logo=next.js)
-![Python](https://img.shields.io/badge/Python-3.x-blue?style=flat-square&logo=python)
-![Selenium](https://img.shields.io/badge/Selenium-4.x-green?style=flat-square&logo=selenium)
-![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=flat-square&logo=typescript)
+Built using **Next.js + Python Selenium**, this tool allows users to configure scraping jobs, monitor progress live, preview results, and download structured datasets in CSV or Excel format.
+
+---
+
+## 📸 Application Preview
+
+### Landing Page
+
+![Landing Page](sample/landing-page.png)
+
+### Scraper Interface
+
+![Scraper UI](sample/scraper-interface.png)
+
+### Live Progress Tracking
+
+![Progress](sample/progress-tracking.png)
+
+### Results
+
+![Results](sample/results.png)
+
+### Export
+
+![Download](sample/export.png)
+
+---
 
 ## ✨ Features
 
-- **3 Scraping Modes** — Single Target, City Sweep, Full Blast
-- **300+ Indian Cities** — Searchable dropdown
-- **Live Progress Tracking** — Real-time job status
-- **Data Preview & Search** — Browse results before download
-- **CSV & Excel Export** — Download with summary sheets
-- **Modern Gradient UI** — Professional light theme
+* 🎯 **3 Scraping Modes**
 
-## 🚀 Quick Start
+  * Single Target → One city, one category
+  * City Sweep → One category across multiple cities
+  * Full Blast → Multiple categories across multiple cities
 
-### Prerequisites
-- Node.js 18+
-- Python 3.8+
-- Chrome browser
+* 🌍 **300+ Cities Support** — Searchable dropdown list
 
-### Installation
+* ⚡ **Live Progress Tracking** — Real-time job updates
+
+* 🔍 **Results Preview** — View data before download
+
+* 📊 **Export Options** — CSV & Excel (with summary sheet)
+
+* 🧠 **Smart Scraping** — Handles infinite scroll & popups
+
+* 🎨 **Modern UI** — Clean, responsive dashboard
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer           | Technology                           |
+| --------------- | ------------------------------------ |
+| Frontend        | Next.js 14, TypeScript, Tailwind CSS |
+| Backend         | Next.js API Routes (Node.js)         |
+| Scraping Engine | Python, Selenium WebDriver           |
+| Automation      | Headless Chrome, WebDriver Manager   |
+| Export          | SheetJS (xlsx), CSV                  |
+
+---
+
+## 📂 Project Structure
+
+```
+JDScrapper/
+│
+├── frontend/                # Next.js application
+│   ├── app/
+│   │   ├── api/scrape/      # API routes
+│   │   ├── scraper/         # Main UI page
+│   │   └── page.tsx         # Landing page
+│   ├── components/          # UI Components
+│   └── lib/cities.ts        # Cities dataset
+│
+└── scraper/
+    └── api_scraper.py       # Selenium scraping engine
+```
+
+---
+
+## ⚙️ How It Works
+
+```
+User selects cities & categories
+        ↓
+Next.js frontend sends request
+        ↓
+API route launches Python scraper
+        ↓
+Selenium loads JustDial pages
+        ↓
+Extracts name, address, phone
+        ↓
+Frontend displays live results
+        ↓
+User downloads CSV/Excel
+```
+
+---
+
+## 🚀 Installation
+
+### 1. Clone Repository
+
 ```bash
-# Clone
-git clone https://github.com/YOUR_USERNAME/JustDial-Data-Scrapper.git
-cd JustDial-Data-Scrapper
+git clone https://github.com/bhaskarchowdary826/JDScrapper.git
+cd JDScrapper
+```
 
-# Install frontend
+### 2. Install Frontend Dependencies
+
+```bash
 cd frontend
 npm install
+```
 
-# Install Python packages
+### 3. Install Scraper Dependencies
+
+```bash
 cd ../scraper
 pip install selenium webdriver-manager
 ```
 
-### Run
+---
+
+## ▶️ Run Locally
+
 ```bash
 cd frontend
 npm run dev
-# Open http://localhost:3000
 ```
 
-## 📖 Usage
+Open → [http://localhost:3000](http://localhost:3000)
 
-1. Click **"Launch App"**
-2. Select mode (Single/Sweep/Blast)
-3. Choose cities & categories
-4. Click **"Start Scraping"**
-5. Download CSV or Excel
+---
 
-## 🏗️ Structure
-```
-├── frontend/       # Next.js (UI + API)
-│   ├── app/        # Pages & API routes
-│   └── components/ # React components
-└── scraper/        # Python Selenium
-    └── api_scraper.py
-```
+## 📊 Usage
 
-## 🛠️ Tech Stack
+1. Select scraping mode
+2. Choose city/cities
+3. Enter business category
+4. Start scraping
+5. Track progress live
+6. Download results
 
-- Next.js 14, TypeScript, Tailwind CSS
-- Python, Selenium WebDriver
-- SheetJS (xlsx)
+---
 
-## 📄 License
+## 🧠 Technical Highlights
 
-MIT
+* Infinite scroll detection to load all listings
+* Popup handling during scraping
+* Subprocess communication between Node and Python
+* Structured dataset generation
+* Real-time UI updates
+
+---
 
 ## 👨‍💻 Author
 
-**Bhaskar**  
-[GitHub](https://github.com/YOUR_USERNAME)
+**Bhaskar Chowdary**
 
-⭐ Star this repo if helpful!
+GitHub: [https://github.com/bhaskarchowdary826](https://github.com/bhaskarchowdary826)
+
+---
+
+## ⚠️ Disclaimer
+
+Use responsibly and follow JustDial terms of service.
+For educational and research purposes only.
+
+---
+
+---
+
+### Why this README is better
+
+* Shorter sections
+* No clutter
+* Clear architecture explanation
+* Recruiter friendly
+* GitHub-style professional formatting
+
+---
+
+If you want, I can also add **badges (stars, tech icons, live demo link style)** — that increases repo attractiveness a lot.
