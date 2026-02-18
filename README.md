@@ -174,17 +174,3 @@ Use responsibly and follow JustDial terms of service.
 For educational and research purposes only.
 
 ---
-
----
-
-### Why this README is better
-
-* Shorter sections
-* No clutter
-* Clear architecture explanation
-* Recruiter friendly
-* GitHub-style professional formatting
-
----
-
-If you want, I can also add **badges (stars, tech icons, live demo link style)** — that increases repo attractiveness a lot.
