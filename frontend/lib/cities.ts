@@ -1,0 +1,61 @@
+export const CITIES: string[] = [
+  "Mumbai", "Delhi", "Bengaluru", "Hyderabad", "Ahmedabad", "Chennai",
+  "Kolkata", "Surat", "Pune", "Jaipur", "Lucknow", "Kanpur", "Nagpur",
+  "Indore", "Thane", "Bhopal", "Visakhapatnam", "Pimpri-Chinchwad", "Patna",
+  "Vadodara", "Ghaziabad", "Ludhiana", "Agra", "Nashik", "Faridabad",
+  "Meerut", "Rajkot", "Kalyan-Dombivli", "Vasai-Virar", "Varanasi",
+  "Srinagar", "Aurangabad", "Dhanbad", "Amritsar", "Navi Mumbai", "Prayagraj",
+  "Howrah", "Ranchi", "Jabalpur", "Gwalior", "Coimbatore", "Vijayawada",
+  "Jodhpur", "Madurai", "Raipur", "Kota", "Guwahati", "Chandigarh",
+  "Solapur", "Hubli-Dharwad", "Tiruchirappalli", "Tiruppur", "Moradabad",
+  "Mysore", "Bareilly", "Gurgaon", "Aligarh", "Jalandhar", "Bhubaneswar",
+  "Salem", "Mira-Bhayandar", "Warangal", "Thiruvananthapuram", "Guntur",
+  "Bhiwandi", "Saharanpur", "Gorakhpur", "Bikaner", "Amravati", "Noida",
+  "Greater Noida", "Jamshedpur", "Bhilai", "Cuttack", "Firozabad", "Kochi",
+  "Nellore", "Bhavnagar", "Dehradun", "Durgapur", "Asansol", "Nanded",
+  "Kolhapur", "Ajmer", "Kalaburagi", "Jamnagar", "Ujjain", "Loni",
+  "Siliguri", "Jhansi", "Ulhasnagar", "Jammu", "Mangalore", "Erode",
+  "Belgaum", "Tirunelveli", "Malegaon", "Gaya", "Jalgaon", "Udaipur",
+  "Davanagere", "Kozhikode", "Kurnool", "Akola", "Rajahmundry", "Bokaro",
+  "Bellary", "Patiala", "Agartala", "Bhagalpur", "Muzaffarnagar", "Latur",
+  "Dhule", "Tirupati", "Rohtak", "Bhilwara", "Muzaffarpur", "Ahmednagar",
+  "Mathura", "Kollam", "Bilaspur", "Shahjahanpur", "Rampur", "Shivamogga",
+  "Chandrapur", "Junagadh", "Thrissur", "Alwar", "Bardhaman", "Kakinada",
+  "Nizamabad", "Parbhani", "Tumkur", "Khammam", "Panipat", "Darbhanga",
+  "Dewas", "Ichalkaranji", "Karnal", "Bathinda", "Jalna", "Eluru",
+  "Barasat", "Purnia", "Satna", "Mau", "Sonipat", "Farrukhabad", "Sagar",
+  "Rourkela", "Durg", "Imphal", "Ratlam", "Hapur", "Arrah", "Karimnagar",
+  "Anantapur", "Etawah", "Bharatpur", "Begusarai", "New Delhi", "Gandhidham",
+  "Puducherry", "Sikar", "Thoothukudi", "Rewa", "Mirzapur", "Raichur",
+  "Pali", "Ramagundam", "Haridwar", "Katihar", "Nagarcoil", "Sri Ganganagar",
+  "Thanjavur", "Bulandshahr", "Singrauli", "Nadiad", "Secunderabad",
+  "Yamunanagar", "Pallavaram", "Bidar", "Munger", "Panchkula", "Burhanpur",
+  "Kharagpur", "Dindigul", "Gandhinagar", "Hospet", "Malda", "Ongole",
+  "Deoghar", "Chapra", "Haldia", "Khandwa", "Nandyal", "Chittoor", "Morena",
+  "Amroha", "Anand", "Bhind", "Bhiwani", "Baharampur", "Ambala", "Morvi",
+  "Fatehpur", "Raebareli", "Bhusawal", "Orai", "Bahraich", "Vellore",
+  "Mahesana", "Sambalpur", "Raiganj", "Sirsa", "Danapur", "Serampore",
+  "Guna", "Jaunpur", "Panvel", "Shivpuri", "Unnao", "Badlapur", "Alappuzha",
+  "Kottayam", "Gadag-Betageri", "Machilipatnam", "Shimla", "Adoni", "Tenali",
+  "Proddatur", "Saharsa", "Hindupur", "Sasaram", "Hajipur", "Beed",
+  "Bhimavaram", "Dehri", "Madanapalle", "Siwan", "Bettiah", "Gondia",
+  "Guntakal", "Srikakulam", "Motihari", "Dharmavaram", "Satara", "Barshi",
+  "Gudivada", "Yavatmal", "Narasaraopet", "Bagaha", "Achalpur", "Osmanabad",
+  "Nandurbar", "Miryalaguda", "Tadipatri", "Kishanganj", "Wardha",
+  "Karaikudi", "Suryapet", "Jamalpur", "Kavali", "Tadepalligudem", "Udgir",
+  "Amaravati", "Buxar", "Jehanabad", "Hinganghat"
+];
+
+export const POPULAR_CITIES = [
+  "Mumbai", "Delhi", "Bengaluru", "Hyderabad", "Chennai",
+  "Kolkata", "Pune", "Ahmedabad", "Jaipur", "Surat",
+  "Noida", "Gurgaon", "Chandigarh", "Kochi", "Indore"
+];
+
+export const SUGGESTED_KEYWORDS = [
+  "builders", "real-estate-agents", "civil-contractors", "architects",
+  "interior-designers", "property-dealers", "construction-companies",
+  "plumbers", "electricians", "carpenters", "painters", "packers-and-movers",
+  "hospitals", "doctors", "lawyers", "ca-firms", "restaurants", "hotels",
+  "schools", "colleges", "gyms", "salons", "pharmacies"
+];
